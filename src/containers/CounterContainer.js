@@ -7,7 +7,7 @@ const CounterContainer = ({ number, increase, decrease }) => {
     <Counter number={number} onIncrease={increase} onDecrease={decrease} />
   );
 };
-
+/* 리팩토링 예정*/
 const mapStateToProps = (state) => ({
   number: state.counter.number,
 });
